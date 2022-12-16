@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Haresh-729.github.io/static/css/main.b2dc4123.css",
+    "main.js": "/Haresh-729.github.io/static/js/main.753197ad.js",
+    "static/media/AWD.jpg": "/Haresh-729.github.io/static/media/AWD.baa357d598d306c6e7ef.jpg",
+    "static/media/heroImage.jpg": "/Haresh-729.github.io/static/media/heroImage.e22b11906c278e7711bb.jpg",
+    "static/media/AJP.png": "/Haresh-729.github.io/static/media/AJP.d8550161c1a141e4af4b.png",
+    "static/media/Modernvate.png": "/Haresh-729.github.io/static/media/Modernvate.2d198e0720e4654e5e65.png",
+    "static/media/python.png": "/Haresh-729.github.io/static/media/python.b4415e91b933a84144c3.png",
+    "static/media/CN.png": "/Haresh-729.github.io/static/media/CN.e54978446c8a8698df25.png",
+    "static/media/C.png": "/Haresh-729.github.io/static/media/C.3086c13c869b023a11e5.png",
+    "static/media/Net.png": "/Haresh-729.github.io/static/media/Net.3c2ef0fc7342abc9f025.png",
+    "static/media/R.png": "/Haresh-729.github.io/static/media/R.45a2dfb34eedc1bd77d9.png",
+    "static/media/tailwind.png": "/Haresh-729.github.io/static/media/tailwind.8b0b07f526af89cf2cb5.png",
+    "static/media/android studio.png": "/Haresh-729.github.io/static/media/android studio.27e0730604aea457040f.png",
+    "static/media/Encrypto.jpg": "/Haresh-729.github.io/static/media/Encrypto.28e330186cbe24d90307.jpg",
+    "static/media/C++.png": "/Haresh-729.github.io/static/media/C++.08860e4670f8f5af8db0.png",
+    "static/media/PC.jpg": "/Haresh-729.github.io/static/media/PC.6e289defffded1a4298b.jpg",
+    "static/media/javascript.png": "/Haresh-729.github.io/static/media/javascript.9613f042eee89051561d.png",
+    "static/media/figma.png": "/Haresh-729.github.io/static/media/figma.04eae5cd9a9666d4be47.png",
+    "static/media/Csharp.png": "/Haresh-729.github.io/static/media/Csharp.2d08312808a9d8caff27.png",
+    "static/media/canva.png": "/Haresh-729.github.io/static/media/canva.9865a2c23769a5a44de4.png",
+    "static/media/mysql.png": "/Haresh-729.github.io/static/media/mysql.af7a1a370321a37957ef.png",
+    "static/media/mongodb.png": "/Haresh-729.github.io/static/media/mongodb.ec81b69b60d4a4a3bd13.png",
+    "static/media/firebase.png": "/Haresh-729.github.io/static/media/firebase.64237ded61292f3740f1.png",
+    "static/media/visual studio code.png": "/Haresh-729.github.io/static/media/visual studio code.6bcf689e7ca0b3a875f4.png",
+    "static/media/react.png": "/Haresh-729.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/visual studio.png": "/Haresh-729.github.io/static/media/visual studio.4e65ed549d17e420ab26.png",
+    "static/media/github.png": "/Haresh-729.github.io/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/Haresh-729.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/Haresh-729.github.io/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/java.png": "/Haresh-729.github.io/static/media/java.a3f70b7c1b28c761209b.png",
+    "index.html": "/Haresh-729.github.io/index.html",
+    "main.b2dc4123.css.map": "/Haresh-729.github.io/static/css/main.b2dc4123.css.map",
+    "main.753197ad.js.map": "/Haresh-729.github.io/static/js/main.753197ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2dc4123.css",
+    "static/js/main.753197ad.js"
+  ]
+}
