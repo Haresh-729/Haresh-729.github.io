@@ -18,6 +18,7 @@ const Home = () => {
               <Typed
                 strings={[
                   "Web Developer,",
+                  "Fullstack Dev.",
                   "DB Manager,",
                   "Student,",
                   "Designer,",
@@ -33,8 +34,8 @@ const Home = () => {
             </h2>
           </div>
           <p className="text-gray-500 py-4 max-w-md">
-            I am currently pursuing Diploma in Computer Engineering. Looking
-            forward to work as an intern that will boost my skills in becoming
+            I am currently pursuing B.Tech in Computer Engineering. Looking
+            forward to work on projects that will boost my skills in becoming
             better Computer Engineer in future.
           </p>
 

@@ -2,8 +2,8 @@ import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import Cpp from "../assets/C++.png"
-import Csharp from "../assets/Csharp.png"
+import Cpp from "../assets/C++.png";
+import Csharp from "../assets/Csharp.png";
 import java from "../assets/java.png";
 import javascript from "../assets/javascript.png";
 import python from "../assets/python.png";
@@ -14,8 +14,8 @@ import tailwind from "../assets/tailwind.png";
 import firebase from "../assets/firebase.png";
 import mongo from "../assets/mongodb.png";
 import mysql from "../assets/mysql.png";
-import android from "../assets/android studio.png"
-import VS from "../assets/visual studio.png"
+import android from "../assets/android studio.png";
+import VS from "../assets/visual studio.png";
 import VSC from "../assets/visual studio code.png";
 import C from "../assets/C.png";
 import net from "../assets/Net.png";
@@ -160,15 +160,59 @@ const Experience = () => {
       name="experience"
       className="select-none bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
-      <div data-aos="fade-up" className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div
+        data-aos="fade-up"
+        className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white"
+      >
         <div className="mt-[4rem] ">
           <p className="select-none text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the Languages I work with</p>
+          <div
+            key="2"
+            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg mt-[2rem] shadow-blue-800`}
+          >
+            <div className="my-4 ml-4 text-[1.5rem] font-bold text-[#ffeb3b]">
+              Full Stack Developer in Softel Technologies Inc. Mumbai.
+            </div>
+            <div className=" ml-[0rem] sm:ml-[4rem] mb-[1rem]">
+              <ol className="ml-[2rem] sm:ml-[2rem]" style={{ listStyle: "disc" }}>
+                <li>Development using .NET C#, Flutter, HTML, CSS, SQL.</li>
+                <li>Project in charge.</li>
+                <li>Client handling, Deploying of code on servers, etc.</li>
+              </ol>
+            </div>
+          </div>
+          <div
+            key="3"
+            className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg mt-[2rem] shadow-teal-400"
+          >
+            <div className="my-4 ml-4 text-[1.5rem] font-bold text-pink-400">
+              Six months internship as Full Stack Developer at Softel
+              Technologies INC.
+            </div>
+            <div className=" ml-[0rem] sm:ml-[4rem] mb-[1rem]">
+              <ol className="ml-[2rem] sm:ml-[2rem]" style={{ listStyle: "disc" }}>
+                <li>Development using .NET C#, Flutter, HTML, CSS, SQL.</li>
+                <li>
+                  As Head Intern assign tasks to interns, ensure completeness of
+                  tasks, guiding them.
+                </li>
+                <li>Client handling, Deploying of code on servers, etc.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div className="mt-[2rem] ">
+          <div className="h-[4px] w-[13rem] bg-gray-500 mt-4 mb-2"></div>
+          <p className="pb-6">These are the Languages I work with</p>
         </div>
 
-        <div data-aos="flip-right" data-aos-delay='500' className="w-full grid grid-cols-2 sm:grid-cols-7 gap-8 text-center py-8 px-12 sm:px-0">
+        <div
+          data-aos="flip-right"
+          data-aos-delay="500"
+          className="w-full grid grid-cols-2 sm:grid-cols-7 gap-8 text-center py-8 px-12 sm:px-0"
+        >
           {languages.map(({ id, src, title, style }) => (
             <div
               key={id}
@@ -180,13 +224,19 @@ const Experience = () => {
           ))}
         </div>
       </div>
-      
+
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="py-6">These are the Scripting Languages IDEs & tools I work with</p>
+          <p className="py-6">
+            These are the Scripting Languages IDEs & tools I work with
+          </p>
         </div>
 
-        <div data-aos="flip-left" data-aos-delay='500' className="w-full grid grid-cols-2 sm:grid-cols-7 gap-8 text-center px-12 sm:px-0">
+        <div
+          data-aos="flip-left"
+          data-aos-delay="500"
+          className="w-full grid grid-cols-2 sm:grid-cols-7 gap-8 text-center px-12 sm:px-0"
+        >
           {SLan.map(({ id, src, title, style }) => (
             <div
               key={id}
@@ -198,8 +248,6 @@ const Experience = () => {
           ))}
         </div>
       </div>
-
-      
     </div>
   );
 };
