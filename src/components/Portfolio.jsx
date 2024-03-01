@@ -7,6 +7,7 @@ import CH from "../assets/portfolio/Chatify.png";
 import ST from "../assets/portfolio/Swaad_tales.png";
 import SF from "../assets/portfolio/Shop_finder.png";
 
+
 const Portfolio = () => {
   const navigate =  useNavigate();
   const handleClick = () => {
