@@ -15,7 +15,7 @@ import SF from "../assets/portfolio/Shop_finder.png";
 const DetailPort = () => {
   const navigate =  useNavigate();
   const handleClick = () => {
-    navigate("/My_Portfolio")
+    navigate("/")
   }
   const portfolios = [
     {

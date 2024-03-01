@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
         <Routes>
-          <Route path="/My_Portfolio" element={[<NavBar />, <Home />, <About />, <Portfolio />, <Experience />, <Extra />, <Contact />, <Footer />, <SocialLinks />, <Theme />]} />
+          <Route path="/" element={[<NavBar />, <Home />, <About />, <Portfolio />, <Experience />, <Extra />, <Contact />, <Footer />, <SocialLinks />, <Theme />]} />
           <Route path="/portfolio" element={[<NavBar />, <DetailPort />, <Footer />, <SocialLinks />, <Theme />]} />
         </Routes>
         {/* <NavBar />
