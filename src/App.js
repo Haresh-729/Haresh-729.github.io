@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
@@ -7,7 +8,8 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Theme from "./components/theme";
 import Extra from "./components/Extra";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import DetailPort from "./components/DetailPort";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -20,8 +22,11 @@ function App() {
   }, []);
   return (
     <div>
-        
-        <NavBar />
+        <Routes>
+          <Route path="/My_Portfolio" element={[<NavBar />, <Home />, <About />, <Portfolio />, <Experience />, <Extra />, <Contact />, <Footer />, <SocialLinks />, <Theme />]} />
+          <Route path="/portfolio" element={[<NavBar />, <DetailPort />, <Footer />, <SocialLinks />, <Theme />]} />
+        </Routes>
+        {/* <NavBar />
         <Home />
         <About />
         <Portfolio />
@@ -29,9 +34,8 @@ function App() {
         <Extra />
         <Contact />
         <Footer />
-
         <SocialLinks />
-        <Theme />
+        <Theme /> */}
     </div>
   );
 }
