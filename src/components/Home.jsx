@@ -2,7 +2,8 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import Typed from "react-typed";
+import ReactTypingEffect from 'react-typing-effect';
+
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
           <div className=" flex lg:w-[50rem]">
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
               I'm a <span style={{ paddingRight: "5px" }}></span>
-              <Typed
-                strings={[
+              <ReactTypingEffect
+                text={[
                   "Web Developer,",
                   "Fullstack Dev.",
                   "DB Manager,",
@@ -26,8 +27,9 @@ const Home = () => {
                   "Project Manager,",
                   "Organizer.",
                 ]}
-                typedSpeed={4000}
-                backSpeed={100}
+                speed={30}
+                eraseSpeed={100}
+                eraseDelay={100}
                 className="bg-clip-text text-transparent bg-gradient-to-b from-[#ffeb3b] to-[#e53935]"
                 loop
               />
